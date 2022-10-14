@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-14T15:59:47 CEST" name="Project testing" finished-at="2022-10-14T16:01:09 CEST" duration-ms="81903">
+    <groups>
+    </groups>
+    <test started-at="2022-10-14T15:59:47 CEST" name="Regression1" finished-at="2022-10-14T16:01:09 CEST" duration-ms="81903">
+      <class name="tests.TestIncorrectPasswords">
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:07 CEST" name="configure" finished-at="2022-10-14T16:00:10 CEST" duration-ms="2976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:10 CEST" name="testInvalidLogin" data-provider="myDataProvider" finished-at="2022-10-14T16:00:14 CEST" duration-ms="4410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[are@g.mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abrakadabra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeWd()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:14 CEST" name="closeWd" finished-at="2022-10-14T16:00:15 CEST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWd -->
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:15 CEST" name="configure" finished-at="2022-10-14T16:00:17 CEST" duration-ms="2807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:17 CEST" name="testInvalidLogin" data-provider="myDataProvider" finished-at="2022-10-14T16:00:22 CEST" duration-ms="4444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[are@g.mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pokusaj68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeWd()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:22 CEST" name="closeWd" finished-at="2022-10-14T16:00:22 CEST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWd -->
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:22 CEST" name="configure" finished-at="2022-10-14T16:00:25 CEST" duration-ms="2887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:25 CEST" name="testInvalidLogin" data-provider="myDataProvider" finished-at="2022-10-14T16:00:30 CEST" duration-ms="4515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[are@g.mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sifra9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeWd()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:30 CEST" name="closeWd" finished-at="2022-10-14T16:00:30 CEST" duration-ms="554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWd -->
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:30 CEST" name="configure" finished-at="2022-10-14T16:00:33 CEST" duration-ms="2867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:33 CEST" name="testInvalidLogin" data-provider="myDataProvider" finished-at="2022-10-14T16:00:38 CEST" duration-ms="4632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[are@g.mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[provala11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeWd()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:38 CEST" name="closeWd" finished-at="2022-10-14T16:00:38 CEST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWd -->
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:38 CEST" name="configure" finished-at="2022-10-14T16:00:41 CEST" duration-ms="2703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testInvalidLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:41 CEST" name="testInvalidLogin" data-provider="myDataProvider" finished-at="2022-10-14T16:00:45 CEST" duration-ms="3827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[are@g.mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[upad13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method is-config="true" signature="closeWd()[pri:0, instance:tests.TestIncorrectPasswords@3d121db3]" started-at="2022-10-14T16:00:45 CEST" name="closeWd" finished-at="2022-10-14T16:00:45 CEST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWd -->
+      </class> <!-- tests.TestIncorrectPasswords -->
+      <class name="tests.TestContactUs">
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestContactUs@290d210d]" started-at="2022-10-14T15:59:47 CEST" name="configure" finished-at="2022-10-14T15:59:54 CEST" duration-ms="6893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testContactUs()[pri:0, instance:tests.TestContactUs@290d210d]" started-at="2022-10-14T15:59:54 CEST" name="testContactUs" finished-at="2022-10-14T15:59:57 CEST" duration-ms="3405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testContactUs -->
+        <test-method is-config="true" signature="closeWd()[pri:0, instance:tests.TestContactUs@290d210d]" started-at="2022-10-14T15:59:57 CEST" name="closeWd" finished-at="2022-10-14T15:59:57 CEST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWd -->
+      </class> <!-- tests.TestContactUs -->
+      <class name="tests.TestLogOut">
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestLogOut@3b07a0d6]" started-at="2022-10-14T16:00:45 CEST" name="configure" finished-at="2022-10-14T16:00:49 CEST" duration-ms="4154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testLoginLogOut()[pri:0, instance:tests.TestLogOut@3b07a0d6]" started-at="2022-10-14T16:00:49 CEST" name="testLoginLogOut" finished-at="2022-10-14T16:00:55 CEST" duration-ms="5836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogOut -->
+        <test-method is-config="true" signature="closeWd()[pri:0, instance:tests.TestLogOut@3b07a0d6]" started-at="2022-10-14T16:00:55 CEST" name="closeWd" finished-at="2022-10-14T16:00:55 CEST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWd -->
+      </class> <!-- tests.TestLogOut -->
+      <class name="tests.TestSignUp">
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestSignUp@11a9e7c8]" started-at="2022-10-14T16:00:55 CEST" name="configure" finished-at="2022-10-14T16:00:58 CEST" duration-ms="2754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="testSingUp()[pri:0, instance:tests.TestSignUp@11a9e7c8]" started-at="2022-10-14T16:00:58 CEST" name="testSingUp" finished-at="2022-10-14T16:01:08 CEST" duration-ms="10055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSingUp -->
+        <test-method is-config="true" signature="closeWeb()[pri:0, instance:tests.TestSignUp@11a9e7c8]" started-at="2022-10-14T16:01:08 CEST" name="closeWeb" finished-at="2022-10-14T16:01:09 CEST" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWeb -->
+      </class> <!-- tests.TestSignUp -->
+      <class name="tests.TestHomePage">
+        <test-method is-config="true" signature="configure()[pri:0, instance:tests.TestHomePage@16e7dcfd]" started-at="2022-10-14T15:59:57 CEST" name="configure" finished-at="2022-10-14T16:00:02 CEST" duration-ms="4369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configure -->
+        <test-method signature="addToShoping()[pri:0, instance:tests.TestHomePage@16e7dcfd]" started-at="2022-10-14T16:00:02 CEST" name="addToShoping" finished-at="2022-10-14T16:00:07 CEST" duration-ms="4940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToShoping -->
+        <test-method is-config="true" signature="closeWebDriver()[pri:0, instance:tests.TestHomePage@16e7dcfd]" started-at="2022-10-14T16:00:07 CEST" name="closeWebDriver" finished-at="2022-10-14T16:00:07 CEST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeWebDriver -->
+      </class> <!-- tests.TestHomePage -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Project testing -->
+</testng-results>
